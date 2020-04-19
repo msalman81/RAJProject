@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#">About Us</a>
+        <a href="signup.html" class="right" id="myBtn">Sign In</a>
+        <!-- <button class="right" id="signin">Sign In</button> -->
+
+    </div>
+
+    <div class="header">
+        <h1>Great Lakes Gaming</h1>
+        <h4>High End Equipment, Low End Prices</h4>
+    </div>
+<br>
+<br>
+<br>
+
+<div class="container">
+
+    <div class="signup-form">
+        <form id="signup"  class ="" action="signup.html" method="post">
+            <h1>Sign Up</h1>
+            <input type="text" placeholder="Full Name" class="txtb UpFname">
+            <input type="email" placeholder="Email" class="txtb UpEmail">
+            <input type="password" placeholder="Password" class="txtb UpPassword">
+            <input type="submit" value="Create Account" class="signup-btn">
+        </form>
+    </div>
+
+    <div class="signin-form">
+        <form id="signin" class ="" action="signup.html" method="post">
+            <h1>Sign In</h1>
+            <input type="email" placeholder="Email" class="txtb InEmail">
+            <input type="password" placeholder="Password" class="txtb InPassword">
+            <input type="submit" value="Sign In" class="signup-btn">
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="socialmedia">
+        <a href="https://twitter.com/GLGamingLounges" target="_blank" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="https://www.twitch.tv/glgaminglounges" target="_blank" class="fa fa-twitch"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+
+</body>
+<script src="signup.js"></script>
+
+</html>
